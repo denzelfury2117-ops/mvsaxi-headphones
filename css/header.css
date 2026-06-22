@@ -1,0 +1,40 @@
+.header {
+    padding: 2.4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+}
+
+.nav {
+    display: flex;
+    gap: 6rem;
+    
+}
+
+.nav-link {
+    font-weight: 400;
+    font-size: 1.6rem;
+    color: var(--primary);
+    text-decoration: none;
+}
+
+.logo {
+    width: 3.6rem;
+    height: 3.6rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.logo-brand {
+    font-size: 1.9rem;
+    font-weight: 600;
+}

@@ -1,0 +1,69 @@
+@import "header.css";
+@import "btn.css";
+
+:root {
+    --primary: #52483E;
+    --light: #8B8782;
+    --red: #883D39;
+    --green: #94915B;
+    --yellow: #D8B74B;
+    --gray: #3B3B3B;
+    --white: #ffffff;
+    --black: #000000;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.wrapper-top {
+    background: linear-gradient(180deg,rgba(210, 205, 198, 1) 0%, rgba(245, 245, 245, 1) 100%);
+}
+
+body {
+    margin: 0;
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.6rem;
+
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+.hero {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-img {
+    width: 70%;
+    margin-top: -15rem;
+    z-index: 1;
+}
+
+.hero-title-top {
+    position: absolute;
+    top: -2%;
+    font-size: 22.5rem;
+    font-weight: 600;
+    color: var(--primary);
+    z-index: 2;
+}
+
+.hero-title-bottom {
+    position: absolute;
+    
+    font-size: 22.5rem;
+    font-weight: 600;
+    bottom: 29%;
+    z-index: 0;
+    background: linear-gradient(180deg,rgb(153, 144, 132) 0%, rgba(218, 204, 188, 1) 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
