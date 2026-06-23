@@ -2,6 +2,7 @@
 @import "btn.css";
 @import "carousel.css";
 @import "hero.css";
+@import "feature-slide.css";
 
 :root {
     --primary: #52483E;
@@ -44,4 +45,12 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     margin: 0;
+}
+
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 2rem;
 }
