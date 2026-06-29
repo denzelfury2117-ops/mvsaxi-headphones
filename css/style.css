@@ -5,6 +5,7 @@
 @import "feature-slide.css";
 @import "details.css";
 @import "price.css";
+@import "footer.css";
 
 :root {
     --primary: #52483E;
@@ -29,6 +30,10 @@ html {
 
 .wrapper-top {
     background: linear-gradient(180deg,rgba(210, 205, 198, 1) 0%, rgba(245, 245, 245, 1) 100%);
+}
+
+.wrapper-bottom {
+    background: linear-gradient(0deg,rgba(210, 205, 198, 1) 0%, rgba(245, 245, 245, 1) 100%);
 }
 
 body {

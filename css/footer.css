@@ -1,0 +1,40 @@
+.wrapper-bottom {
+    text-align: center;
+    padding-top: 8rem;
+    padding-bottom: 4.2rem;
+}
+
+.wrapper-bottom h1 {
+    font-size: 4.2rem;
+    font-weight: 600;
+    color: var(--primary);
+}
+
+.wrapper-bottom p {
+    font-size: 2rem;
+    font-weight: 400;
+    color: var(--light);
+    padding-top: 1.6rem;
+    padding-bottom: 3.2rem;
+}
+
+.footer-top {
+    padding-bottom: 4.2rem;
+}
+
+.footer-bottom {
+    border-top: 1px solid var(--light);
+}
+
+.footer-bottom-inner {
+    padding: 1.6rem 8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-bottom-right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
