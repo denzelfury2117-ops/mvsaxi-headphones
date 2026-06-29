@@ -1,0 +1,25 @@
+.price {
+    background-image: url("../img/price bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 130rem;
+}
+
+.price-info {
+    text-align: center;
+    padding: 8rem 18rem 56.6rem;
+}
+
+.price-info h1 {
+    font-size: 8.6rem;
+    color: var(--white);
+    font-weight: 600;
+}
+
+.price-info p {
+    font-size: 2.4rem;
+    padding-top: 2.4rem;
+    padding-bottom: 4.4rem;
+    color: var(--white);   
+}

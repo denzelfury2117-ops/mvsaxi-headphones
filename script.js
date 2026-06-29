@@ -58,3 +58,28 @@ document.addEventListener('mousemove', (e) => {
   const dx = e.pageX - startX;
   slider.scrollLeft = scrollLeft - dx;
 });
+
+const detailSlider = document.querySelector('.detail-carousel');
+let isDown2 = false;
+let startX2;
+let scrollLeft2;
+
+detailSlider.addEventListener('mousedown', (e) => {
+  isDown2 = true;
+  startX2 = e.pageX;
+  scrollLeft2 = detailSlider.scrollLeft;
+  detailSlider.style.cursor = 'grabbing';
+  e.preventDefault();
+});
+
+document.addEventListener('mouseup', () => {
+  if (!isDown2) return;
+  isDown2 = false;
+  detailSlider.style.cursor = 'grab';
+});
+
+document.addEventListener('mousemove', (e) => {
+  if (!isDown2) return;
+  const dx = e.pageX - startX2;
+  detailSlider.scrollLeft = scrollLeft2 - dx;
+});

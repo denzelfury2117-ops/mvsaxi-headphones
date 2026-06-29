@@ -1,6 +1,6 @@
 .feature-section {
     padding: 8rem 0;
-    
+    overflow: hidden;
 }
 
 .feature-block {
@@ -41,7 +41,7 @@
   overflow-x: auto;
   scroll-snap-type: x mandatory;
   cursor: grab;
-  padding: 2rem 4rem;
+  padding: 2rem 8rem;
   width: 100vw;
   margin-left: calc(-50vw + 50%);
 }

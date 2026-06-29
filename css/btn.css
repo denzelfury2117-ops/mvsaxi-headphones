@@ -8,6 +8,16 @@
     text-decoration: none;
     background: linear-gradient(180deg,rgba(82, 72, 62, 1) 0%, rgba(139, 135, 130, 1) 100%);
     color: var(--white);
+}
 
+.btn-white {
+    display: inline-block;
+    padding: 1rem 3.2rem;
+    border-radius: 2.4rem;
 
+    font-family: inherit;
+    font-size: 1.6rem;
+    text-decoration: none;
+    background-color: var(--white);
+    color: var(--black);
 }
